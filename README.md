@@ -16,7 +16,7 @@ This project is a Payouts Management System implemented using React, Next.js, an
 To run the application locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/Lithium-Ventures/medley-fe-tech-test.git
+   git clone https://github.com/Hafizarslanbutt/NextJS-LETHIUM-Test.git
 2. Install dependencies:
    cd LITHIUM-TEST
    npm install
