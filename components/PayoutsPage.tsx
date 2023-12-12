@@ -28,7 +28,7 @@ const PayoutsPage: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [loading, setLoading] = useState<boolean>(true);
 
-  const fetchData = useCallback(async () => {
+  const fetchData = useCallback(async (currentPage: number) => {
     try {
       setLoading(true);
       const data = await ApiService.fetchPayOutHistory(`payouts?page=${currentPage}`);
@@ -38,11 +38,11 @@ const PayoutsPage: React.FC = () => {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [currentPage]);
 
   useEffect(() => {
 
-    fetchData();
+    fetchData(currentPage);
   }, [currentPage]);
 
   const handleSearch = async () => {
