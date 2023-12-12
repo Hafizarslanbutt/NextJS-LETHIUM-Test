@@ -4,6 +4,10 @@
 
 This project is a Payouts Management System implemented using React, Next.js, and TypeScript. The system allows users to view and search payout history, providing a clean and responsive user interface. It incorporates TypeScript for enhanced type safety and leverages styled-components for styling.
 
+
+https://github.com/Hafizarslanbutt/NextJS-LETHIUM-Test/assets/150122137/24f4b1ba-860f-44ea-991d-c2b4ffd201d9
+
+
 ## Tech Stack
 
 - **React**: A JavaScript library for building user interfaces.
